@@ -1,0 +1,36 @@
+#
+/bin
+
+# Libraries are provided by Bonita Studio or are the result of a build process (e.g. generated from BDM definition)
+/lib
+
+#
+.classpath
+
+#
+.settings
+
+#
+/META-INF
+
+#
+/build.properties
+
+# Only used as user preferences
+/database_connectors_properties
+
+# h2 database information are only used when testing application in Bonita Studio
+/h2_database
+
+# ACME test organization is provided by Bonita Studio
+/organizations/ACME.organization
+
+# Ignore the Groovy script sources provided with Bonita Studio
+/src-providedGroovy
+
+# Web component preferenes (e.g. bookmarked,...)
+/web_widgets/.metadata
+/web_page/.metadata
+
+# Web widgets provided by default in the UI Designer
+/web_widgets/pb*/
